@@ -1,0 +1,30 @@
+:root{
+    --text-color:white;
+
+}
+
+.logo{
+    width: 6.25rem;
+    height: 4.25rem;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    color:var(--text-color) !important;
+}
+.navbar-brand{
+    text-transform: uppercase;
+    color: var(--text-color) !important;
+}
+
+.navbar-nav li a:focus{
+    border-top: orange solid 3px;
+}
+
+.navbar-nav li a:hover{
+    border-top: orange solid 3px;
+}
+
+.navbar-nav li{
+    margin-left: 20px;
+}
