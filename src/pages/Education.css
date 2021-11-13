@@ -1,0 +1,17 @@
+.education{
+    height: 100vh;
+    background-image: url(../components/images/image.jpg);
+    position: relative;
+    background-size: cover; 
+    background-position: center;
+}
+
+.text-center{
+    text-transform: uppercase;
+    margin: 10vh 20vh;
+}
+
+.aboutEducation{
+    margin: 10vh 20vh;
+    font-weight: 800;
+}

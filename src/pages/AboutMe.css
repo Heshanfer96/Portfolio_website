@@ -1,0 +1,56 @@
+.about{
+    display: flex;
+    height: 90vh;
+}
+
+.a-right{
+    flex: 1;
+    height: 80vh;
+}
+
+.a-left{
+    flex: 1;
+    height: 80vh;
+}
+
+
+.image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-width: 3px solid black;
+    margin: 10vh auto;
+    display: flex;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.discription{
+    margin: 10% 20%;
+    width: 80%;
+    font-size: 17px;
+}
+
+.details{
+    margin: 20vh 20vh 5vh 20vh;
+}
+
+.details-title{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.detailsIteam{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: auto;
+}

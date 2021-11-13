@@ -3,6 +3,10 @@
 
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .logo{
     width: 6.25rem;
     height: 4.25rem;
@@ -27,4 +31,65 @@
 
 .navbar-nav li{
     margin-left: 20px;
+    
+}
+
+/* ***********************home************************* */
+
+.home{
+    background-image: url(./components/images/background.jpg);
+    position: relative;
+    background-size: cover; 
+    background-position: center;
+    height: 90vh;
+    
+}
+
+.homeContents{
+    display: flex;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.toptext{
+    text-transform: uppercase;
+    color: rgb(158, 104, 65);
+    display: flex;
+    font-size: 100px;
+}
+
+.typewriter{
+    text-transform: uppercase;
+    color: black;
+    font-size: 50px;
+}
+
+.downloadBtn{
+    width: auto;
+    height: auto;
+    background-color: black;
+    padding: 10px auto;
+    margin: auto;
+    border-radius: 10px;
+    
+
+}
+
+.downloadBtn a{
+    text-decoration: none;
+    color: rgb(158, 104, 65);
+
+}
+
+.downloadBtn:hover{
+    background-color:rgb(61, 55, 55);
+    transition: .1s ease-in-out;
+    
 }
