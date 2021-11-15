@@ -4,14 +4,104 @@
     position: relative;
     background-size: cover; 
     background-position: center;
+    color: white;
+}
+
+.background{
+    background-color: rgba(0, 0, 0, 0.61);
+    height: 100%;
 }
 
 .text-center{
+    padding-top: 70px;
     text-transform: uppercase;
     margin: 10vh 20vh;
+    color: white;
+    font-weight: 900;
 }
 
 .aboutEducation{
     margin: 10vh 20vh;
     font-weight: 800;
+
+}
+
+.paragraphEducation{
+    color: white;
+    padding: 0 50px;
+}
+
+.portfolio{
+    margin: 20px 50px;
+}
+
+.skills{
+    margin: 20px 50px;
+}
+.skills-heading{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.professional-iteams{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.btn{
+    margin-left: 20vw;
+    margin-top: 10px;
+}
+.portfilio-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.profestional-other{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profestional-other{
+    margin-top: 20px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.html{
+    color: orange;
+}
+
+.css{
+    color: rgb(48, 145, 190);
+}
+
+.bootstrap{
+    color: blueviolet;
+}
+
+.js{
+    color: yellow;
+}
+
+.react{
+    color: rgb(0, 119, 255);
+}
+
+.cprogrm{
+    color: rgb(0, 110, 255);
+}
+
+.btnportfolio:hover{
+    background-color: red;
+}
+
+.btnportfolio{
+    width: 500px;
+    height: 50px;
 }

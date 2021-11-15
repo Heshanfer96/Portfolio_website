@@ -38,10 +38,10 @@ function AboutMe() {
                 </div>
                      </div>
                         <div className="icons">
-                        <a className="position" href="https://www.facebook.com/heshan.fdo.31"><FontAwesomeIcon icon={faFacebook} className=" fa-5x"/></a>
-                        <a className="position" href="#"><FontAwesomeIcon icon={faInstagram} className=" fa-5x"/></a>
-                        <a className="iconposition" href="http://www.linkedin.com/in/heshanfer"><FontAwesomeIcon icon={faLinkedin} className=" fa-5x"/></a>
-                        <a  className="iconposition" href="https://github.com/Heshanfer96"><FontAwesomeIcon icon={faGithub} className=" fa-5x"/></a>
+                        <a className="position" href="https://www.facebook.com/heshan.fdo.31" target="blank"><FontAwesomeIcon icon={faFacebook} className=" fa-5x"/></a>
+                        <a className="position" href="#" target="blank"><FontAwesomeIcon icon={faInstagram} className=" fa-5x"/></a>
+                        <a className="iconposition" href="http://www.linkedin.com/in/heshanfer" target="blank"><FontAwesomeIcon icon={faLinkedin} className=" fa-5x"/></a>
+                        <a  className="iconposition" href="https://github.com/Heshanfer96" target="blank"><FontAwesomeIcon icon={faGithub} className=" fa-5x"/></a>
                     </div>
         </div>
     )
