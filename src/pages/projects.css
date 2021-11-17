@@ -1,0 +1,45 @@
+.projects{
+    min-height: 100vh;
+}
+
+.projectstitle{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 40px;
+}
+
+.projectiteam{
+    margin: 20px;
+}
+
+.name{
+    text-transform: uppercase;
+}
+
+.projectBody{
+    margin: 20px;
+}
+
+.projectType{
+    margin: 10px 20px;
+}
+
+.typeIteam{
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: wheat;
+}
+
+.technolgyes{
+    display: flex;
+    margin: 10px 20px;
+}
+
+.techIteam{
+    margin: 10px;
+    border: 2px solid green;
+    padding: 3px;
+    border-radius: 5px;
+}

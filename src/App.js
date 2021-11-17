@@ -3,6 +3,8 @@ import AboutMe from "./pages/AboutMe";
 import Home from "./pages/Home";
 import NavigationBar from "./components/NavigationBar";
 import Education from "./pages/Education";
+import Projects from "./pages/projects";
+import Hobbies from "./pages/Hobbies";
 
 
 
@@ -13,6 +15,8 @@ function App() {
     <Home/>
     <AboutMe/>
     <Education/>
+    <Projects/>
+    <Hobbies/>
     
     </>
   );
