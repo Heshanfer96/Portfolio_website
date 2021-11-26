@@ -7,7 +7,7 @@ import "./Hobbies.css"
 
 function Hobbies() {
     return (
-        <div>
+        <div id="hobbies">
             <div className="hobbies">
                 <div className="hibbiesHeader">
                     <h2 className="heading">my hobbies</h2>

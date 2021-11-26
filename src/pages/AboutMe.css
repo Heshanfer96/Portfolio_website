@@ -1,16 +1,19 @@
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
 .about{
-    display: flex;
-    height: 90vh;
+    min-height: 90vh;
 }
 
-.a-right{
-    flex: 1;
-    height: 80vh;
-}
-
-.a-left{
-    flex: 1;
-    height: 80vh;
+.headingName{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -27,25 +30,28 @@
 }
 
 .discription{
-    margin: 10% 20%;
+    margin: 10% 10%;
     width: 80%;
     font-size: 17px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .details{
-    margin: 20vh 20vh 5vh 20vh;
+    margin-top: 20vh ;
 }
 
 .details-title{
     font-weight: 900;
     text-transform: uppercase;
     font-size: 17px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .detailsIteam{
     font-weight: 700;
     text-transform: uppercase;
     font-size: 15px;
+    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -53,4 +59,16 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: auto;
+}
+
+@media(max-width:900px){
+    .a-righ{
+        float: none !important;
+        width: 100%;
+    }
+    .a-left{
+        float: none !important;
+        width: 100%;
+    }
+
 }

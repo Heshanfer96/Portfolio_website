@@ -1,5 +1,5 @@
 .education{
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(../components/images/image.jpg);
     position: relative;
     background-size: cover; 
@@ -50,11 +50,11 @@
 }
 
 .btn{
-    margin-left: 20vw;
+    /* margin-left: 20vw; */
     margin-top: 10px;
 }
 .portfilio-heading{
-    text-align: center;
+    /* text-align: center; */
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -102,6 +102,9 @@
 }
 
 .btnportfolio{
-    width: 500px;
+    /* width: 500px; */
     height: 50px;
+    text-transform: uppercase;
+    position: relative;
+    /* padding: 10px; */
 }

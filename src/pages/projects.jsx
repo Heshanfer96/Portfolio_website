@@ -52,7 +52,7 @@ function Projects() {
     }
     
     return (
-        <div>
+        <div id="projects">
             <div className="projects">
                 <div className="container">
                     <h2 className="projectstitle">

@@ -6,9 +6,12 @@ import { faLinkedin,faGithub,faFacebook,faInstagram } from '@fortawesome/free-br
 
 function AboutMe() {
     return (
-        <div>
-            <div className="about">
-                <div className="a-right">
+        <div id="about">
+            <div className="AnoutHeading">
+                    <h1 className="headingName">About me</h1>
+                </div>
+            <div className="about row"> 
+                <div className="col-lg-6 col-sm-12">
                     <div className="image-box">
                             <img className="image" src={my} alt="my image.." />
                     </div>
@@ -21,12 +24,12 @@ function AboutMe() {
                     </div>
                 </div>
 
-                <div className="a-left">
-                    <div className="details">
+                <div className="col-lg-6 col-sm-12">
+                    <div className="container details">
                         <p><span className="details-title">name :</span> <span className="detailsIteam">palamandalige heshan duminda fernando</span> </p>
                         <p><span className="details-title">adress :</span> <span className="detailsIteam">no 32/10 church road, eldaniya,kadawatha</span> </p>
                         <p><span className="details-title">contact :</span> <span className="detailsIteam">0714377030/0112971323</span> </p>
-                        <p><span className="details-title">Email :</span> <span className="detailsIteam">heshanfer96@gmail.com</span> </p>
+                        <p><span className="details-title">Email :</span> <span >heshanfer96@gmail.com</span> </p>
                         <p><span className="details-title">NIC :</span> <span className="detailsIteam">961992842v</span> </p>
                         <p><span className="details-title">gender :</span> <span className="detailsIteam">mail</span> </p>
                         <p><span className="details-title">civil status :</span> <span className="detailsIteam">single</span> </p>

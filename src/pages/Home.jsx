@@ -5,11 +5,12 @@ import TypeWriter from 'typewriter-effect'
 
 function Home() {
     return (
-        <div>
+        <div id="Home">
             <div className="home">
                 <div className="homeContents">
-                    <div ><h1 className="toptext">hello.....</h1>
-                    <h2 className="typewriter">i am  <TypeWriter
+                    <div ><h1 className="toptext">hello</h1>
+                    <h2 className="typewriter">i am  
+                    {/* <TypeWriter
                                 onInit={(TypeWriter)=>{
                                 TypeWriter
                                 .typeString("HESHAN")
@@ -24,10 +25,19 @@ function Home() {
                                 .start();
                                 
                             }
-                        }/>
+                        }/> */}
+
+                    <TypeWriter
+                        options={{
+                            strings: ["Heshan", "Duminda","Fernando"],
+                            autoStart: true,
+                            loop: true,
+                            pauseFor: 1000
+                        }}
+                />
                      </h2>
                      <div className="downloadBtn">
-                        <a href="./cover letter and resume.pdf" download> Download my cv as pdf</a>
+                        <a href="./cover letter and resume.pdf" target="blank"> Download my cv as pdf</a>
                      </div>
                         
                     </div>

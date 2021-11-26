@@ -5,6 +5,7 @@ import NavigationBar from "./components/NavigationBar";
 import Education from "./pages/Education";
 import Projects from "./pages/projects";
 import Hobbies from "./pages/Hobbies";
+import Contact from "./pages/Contact";
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <Education/>
     <Projects/>
     <Hobbies/>
+    <Contact/>
     
     </>
   );
